@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ol,ul{
+
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,span,div{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+/*banner css start*/
+
+#banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: 600px;
+    
+}
+.banner_logo h4{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.header_main .banner_logo{
+    
+    margin-top: 12px;
+}
+
+.navbar-nav .nav-item .nav-link{
+
+   margin-left: 5px;
+   color: black;
+   font-size: 18px;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover{
+   
+    background-color: #04a590;
+    color: white;
+    text-align: center;
+    font-weight: medium;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item{
+  text-align: center;
+  font-weight: medium;
+}
+
+.navbar-nav .nav-item .nav-link:hover
+ {
+  color: #04a590; /* Change this to the desired hover color */
+}
+
+/* CSS for button-like styling */
+.banner_main_content {
+     margin-top: 50px;
+    /* Add other necessary styles for the container */
+  }
+
+  .banner_main_content p{
+    font-size: 50px;
+    margin-bottom: 80px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .banner_main_content a.button {
+    display: inline-block;
+    padding: 10px 50px;
+    text-decoration: none;
+    background-color: #007bff; /* Change this to your desired button color */
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    margin-bottom: 200px; /* Smooth transition on hover */
+  }
+  
+  .banner_main_content a.button:hover {
+    background-color: #0056b3; /* Change this to the hover color you want */
+  }
+  
+/*banner css end*/
