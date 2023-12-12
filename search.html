@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search and Sortable Table</title>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/search_style.css">
+
+</head>
+
+<body>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search for data...">
+    <button onclick="searchTable()">Search</button>
+  </div>
+
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th >Drive Name</th>
+        <th >Location</th>
+        <th >Contact</th>
+        <th>Action</th>
+
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+      <tr>
+        <td>Anik</td>
+        <td>Bannasree</td>
+        <td>01537156605</td>
+        <td><i class="fas fa-phone-alt call-icon CALL" onclick="makeCall()" title="Call"></i>
+        <i class="fa-solid fa-plus PLUS" title="Book"></i>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</body>
+</html>
