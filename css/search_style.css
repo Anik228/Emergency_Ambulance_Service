@@ -12,10 +12,7 @@ table {
   }
   
   
-  .search-container {
-  text-align: center;
-  margin-bottom: 20px; 
-}
+  
 #searchInput {
   padding: 8px;
   border: 1px solid #ccc;

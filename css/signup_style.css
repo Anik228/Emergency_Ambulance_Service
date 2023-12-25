@@ -9,18 +9,7 @@
 
 /*form design*/
 
-.form_main{
-   
-    background-color: gray;
-    height: 1000px;
-    width: 550px;
-    margin: 30px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
 
-}
 .title{
 width: 150px;
 margin: 0 auto;
